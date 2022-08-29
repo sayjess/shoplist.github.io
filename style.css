@@ -1,24 +1,17 @@
 body {
-  margin: auto 20rem;
   height: 100%;
+  background-color: #6D8C00;
   
 }
 
 .container {
-  background-color: #E38B29;
-  margin: 0 auto;
+  background-color: #6D8C00;
   
 }
 .zone {
-  display: flex;
-  cursor: pointer;
   background-color: white;
-  font-size: 1em;
-  border: 0;
-  transition: all 0.3s linear;
-  
-
 }
+
 
 #main-head {
   color: #FDEEDC;
@@ -30,24 +23,58 @@ body {
   height: 10vh;
 }
 
+input {
+  border-radius: 5px;
+  height: 2.5rem;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
 .first-section {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2em;
   height: 10vh;
-  border: none;
   border-radius: 0;
 }
 
-.second-section {
-  height: 80vh;
-  border-radius: 20px 20px 0px 0px;
-  border-color: white;
-  border: 2px solid #E38B29;
+#addButton {
+  border: 2px solid;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #6D8C00;
+	background-color: FDEEDC;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
 }
 
-ul{
+button{
+  height: 2.5rem;
+  width: 2.rem;
+}
+
+i {
+  border: 20px;
+}
+
+#addButton:hover{
+	background-color: #6D8C00;
+	color: #FDEEDC;
+}
+.second-section {
+  height: 80vh;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+  border: 2px solid #6D8C00;
+}
+
+/* ul{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -56,26 +83,65 @@ ul{
   height: 100%;
   overflow: auto;
   margin-top: 15px;
-  background-color: #E38B29;
+  background-color: #6D8C00;
   list-style: none;
   padding: 0;
 }
 
+
 ul > .zone{
   border: none;
+} */
+
+ul {
+  margin-top: 25px;
+	padding-right: 15px;
+  padding-left: 15px;
 }
 
 h2{
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: rgba(109, 140, 0, .5);
+}
+
+::placeholder{
+  color: rgba(109, 140, 0, .5);
 }
 
 li{
-  margin-left: 20px;
+
+  cursor: pointer;
+  list-style: none;
+	padding: 10px 10px;
+	color: black;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #6D8C00;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;  
 }
 
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: rgba(109, 140, 0, 0.5);
+	font-weight: 800;
+}
+li > button:hover {
+	color: rgba(109, 140, 0, 1);
+}
 
-.gradient {
-  background-color: #E38B29;
+.background {
+  background-color: #6D8C00;
 }
 
 
