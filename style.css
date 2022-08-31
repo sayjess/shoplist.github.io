@@ -2,6 +2,10 @@ body,html{
   margin: auto 0;
   height: 100%;
 }
+
+body{
+  height: 50vh;
+}
 .contain {
   color: #FDEEDC;
   background-color: #6D8C00;
