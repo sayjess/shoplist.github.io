@@ -3,31 +3,31 @@ body,html{
   height: 100%;
 }
 
-body{
-  height: 50vh;
-}
 .contain {
+  display: grid;
+  justify-content: center;
+  align-items: flex-end;
   color: #FDEEDC;
   background-color: #6D8C00;
-  padding: 0;
   height: 20vh;
+}
+
+#main-head{
+  margin: auto;
 }
 
 input {
   border-radius: 5px;
   height: 2.5rem;
-	min-width: 50%;
+	min-width: 50vw;
 	padding: 5px;
 	border: none;
 }
 
-.first-section{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
-
+.first-section {
+  margin: auto;
 }
+
 
 .second-section{
   display: flex;
