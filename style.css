@@ -5,10 +5,10 @@ body,html{
 
 .contain {
   display: grid;
-  place-item: center;
+  place-items: center;
   color: #FDEEDC;
   background-color: #6D8C00;
-  height: 20%;
+  min-height: 10rem;
 }
 
 #main-head{
@@ -16,10 +16,9 @@ body,html{
 }
 
 input {
-  border-radius: 5px;
-  height: 2.5em;
-	min-width: 50vw;
-	padding: 5px;
+  border-radius: .3em;
+  min-height: 2.5em;
+	min-width: 50em;
 	border: none;
 }
 
@@ -31,7 +30,6 @@ input {
 .second-section{
   display: flex;
   flex-flow: column;
-  height: 100%;
   /* background-color:  white;
   border-radius: 20px 20px 0px 0px;
   border: 2px solid #6D8C00; */
@@ -39,7 +37,7 @@ input {
 
 #addButton {
   border: 2px solid;
-	border-radius: 5px;
+	border-radius: 1em;
 	color: #6D8C00;
   height: 2.7em;
   width: 2.7em;
@@ -108,3 +106,4 @@ h2{
 .done {
   text-decoration: line-through;
 }
+
