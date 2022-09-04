@@ -5,8 +5,7 @@ body,html{
 
 .contain {
   display: grid;
-  justify-content: center;
-  align-items: flex-end;
+  place-item: center;
   color: #FDEEDC;
   background-color: #6D8C00;
   height: 20%;
