@@ -42,25 +42,9 @@ function createListElement() {
         // Call common function to attach ONE handler
         activateDeleteAction(button);
         li.appendChild(button);
-    }   
-	// 	var button = document.createElement("button");
-	// 	var i = document.createElement("i");
-	// 	i.classList.add("fa-solid", "fa-trash-can");
-	// 	button.classList.add("deleteButton");
-	// 	button.appendChild(i);
-	// 	// console.log("deleteListElement function added");
-	// 	button.addEventListener('click', deleteListElement);
-	// 	// console.log("emptyList function added");
-	// 	li.appendChild(button);
-	// 	emptyList();
-	// }
-	
-	
+    }   		
 }
 
-// New function. Common for 2 use cases:
-// - for existing delete buttons, on page load
-// - for newly added delete buttons, on user action
 function activateDeleteAction(btn) {
     btn.addEventListener('click', function() {
         var li = this.parentNode;
